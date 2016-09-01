@@ -2,9 +2,179 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- No zooming -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Landing Page</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Bootflat -->
+    <link rel="stylesheet" href="https://bootflat.github.io/bootflat/css/bootflat.css" integrity="sha384-UGgxWNakS4+z7WESTiJqfpy3YVQMW6TJUoOhc1NInlOu/0Gwh421teVgOMe6q+/J" crossorigin="anonymous">
+
+    <!-- Include app.css-->
+    <link rel="stylesheet" href="src/css/app.css">
+
+    <!-- Google Font-->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic" rel="stylesheet" type="text/css">
 </head>
 <body>
+
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                               SMS Project
+                            </a>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#">Sign In</a></li>
+                                <li><a href="#">Sign Up</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Sign In</a></li>
+                                        <li><a href="#">Sign Up</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="container-fluid">
+        <!--<div class="row">-->
+            <!--<aside class="col-sm-2">-->
+                <!--col1-->
+            <!--</aside>-->
+            <!--<section class="col-sm-8">-->
+                <!---->
+            <!--</section>-->
+            <!--<aside class="col-sm-2">-->
+                <!--col3-->
+            <!--</aside>-->
+        <!--</div>-->
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="timeline">
+                    <dl>
+                        <dt>Welcome</dt>
+                        <dd class="pos-right clearfix">
+                            <div class="circ"></div>
+                            <div class="time">Date</div>
+                            <div class="events">
+                                <div class="pull-left">
+                                    <img height="64" width="64" class="events-object img-rounded" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTiz911zr7QCOWyYwQn5RRfc00jFhRokqepJKkoptgl7E2ptYOc">
+                                </div>
+                                <div class="events-body">
+                                    <h4 class="events-heading">Welcome MSG</h4>
+                                    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro </p>
+                                </div>
+                            </div>
+                        </dd>
+                        <dd class="pos-left clearfix">
+                            <div class="circ"></div>
+                            <div class="time">Date</div>
+                            <div class="events">
+                                <div class="pull-left">
+                                    <img height="64" width="64" class="events-object img-rounded" src="http://m.thumbs.canstockphoto.com/canstock33612137.jpg">
+                                </div>
+                                <div class="events-body">
+                                    <h4 class="events-heading">Patient Reply</h4>
+                                    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua</p>
+                                </div>
+                            </div>
+                        </dd>
+                        <dt>Check Patient</dt>
+                        <dd class="pos-right clearfix">
+                            <div class="circ"></div>
+                            <div class="time">Date</div>
+                            <div class="events">
+                                <div class="pull-left">
+                                    <img height="64" width="64" class="events-object img-rounded" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTiz911zr7QCOWyYwQn5RRfc00jFhRokqepJKkoptgl7E2ptYOc">
+                                </div>
+                                <div class="events-body">
+                                    <h4 class="events-heading">Doctor Question</h4>
+                                    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua</p>
+                                </div>
+                            </div>
+                        </dd>
+                        <dd class="pos-left clearfix">
+                            <div class="circ"></div>
+                            <div class="time">Date</div>
+                            <div class="events">
+                                <div class="pull-left">
+                                    <img height="64" width="64" class="events-object img-rounded" src="http://m.thumbs.canstockphoto.com/canstock33612137.jpg">
+                                </div>
+                                <div class="events-body">
+                                    <h4 class="events-heading">Patient Answer</h4>
+                                    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua</p>
+                                </div>
+                            </div>
+                        </dd>
+                        <dd class="pos-right clearfix">
+                            <div class="circ"></div>
+                            <div class="time">Date</div>
+                            <div class="events">
+                                <div class="pull-left">
+                                    <img height="64" width="64" class="events-object img-rounded" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTiz911zr7QCOWyYwQn5RRfc00jFhRokqepJKkoptgl7E2ptYOc">
+                                </div>
+                                <div class="events-body">
+                                    <h4 class="events-heading">Doctor Feedback</h4>
+                                    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua</p>
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer">
+                    <div class="container">
+                        <div class="footer-copyright text-center">Copyright © 2016 SMS Project. All rights reserved.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Latest compiled and minified jquery JavaScript not using SRI hash b/c google doest not allow CORS-->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" integrity="sha384-nrOSfDHtoPMzJHjVTdCopGqIqeYETSXhZDFyniQ8ZHcVy08QesyHcnOUpMpqnmWq" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Bootflat's JS files.-->
+    <script src="https://bootflat.github.io/bootflat/js/icheck.min.js" integrity="sha384-Akz3xTntqC5HCqtuiM+raZYCQRL/QPDGLbgZt9tMSizIW3a9jM/WjyOYzX+hKTNt" crossorigin="anonymous"></script>
+    <script src="https://bootflat.github.io/bootflat/js/jquery.fs.selecter.min.js" integrity="sha384-U0dH77ABWrggNS9SnZF+5P8lE7PMLa8bg8Z4qZbETkHKfm2xgqS8ppMjdQLho8qW" crossorigin="anonymous"></script>
+    <script src="https://bootflat.github.io/bootflat/js/jquery.fs.stepper.min.js" integrity="sha384-Z2z2NP8aiVG2v9P2C69EVf1NJ7PcKOGOXlHq5capIH4mwiCaNPrnuq+NJ8+Q9hbq" crossorigin="anonymous"></script>
 
 </body>
 </html>
