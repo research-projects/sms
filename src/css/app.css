@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+}
+
+.full-height {
+    height:100%;
+}
+
+
+.login-page {
+
+}
+
+.landing-page {
+    background-color: #008c95;
+    color: white;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+
+header {
+    height: 30%;
+}
+
+footer {
+    height: 20%;
+}
+
+.login-container {
+    height: 50%;
+}
