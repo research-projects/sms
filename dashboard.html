@@ -90,29 +90,31 @@
                     </div>
                     <br>
 
-                    <div class="row">
-                        <div class="col-md-3"></div>
-                        <div class="col-md-6">
-                            <input type="text" class="form-control" placeholder="Patient phone" id="patient_phone">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6">
+                                <input type="tel" class="form-control" pattern="\+1\d{10}" placeholder="Patient phone +1xxxxxxxxxx" id="patient_phone_input" required>
+                            </div>
+                            <div class="col-md-3"></div>
                         </div>
-                        <div class="col-md-3"></div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-md-3"></div>
-                        <div class="col-md-6">
-                            <input type="text" class="form-control" placeholder="Guardian Phone" id="guardian_phone">
+                        <br>
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6">
+                                <input type="tel" class="form-control" pattern="\+1\d{10}" placeholder="Guardian Phone +1xxxxxxxxxx" id="guardian_phone_input">
+                            </div>
+                            <div class="col-md-3"></div>
                         </div>
-                        <div class="col-md-3"></div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-md-5"></div>
-                        <div class="col-md-2">
-                            <button type="button" class="btn btn-block">Add</button>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-5"></div>
+                            <div class="col-md-2">
+                                <button type="submit" class="btn btn-block" id="add_patient_btn">Add</button>
+                            </div>
+                            <div class="col-md-5"></div>
                         </div>
-                        <div class="col-md-5"></div>
-                    </div>
+                    </form>
                 </div>
 
                 <!--<div class="col-md-7">-->

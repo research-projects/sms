@@ -8,10 +8,6 @@ html {
 
 /* Login and Landing page CSS */
 
-.login-page {
-
-}
-
 .landing-page {
     background-color: #008c95;
     color: white;
@@ -39,20 +35,4 @@ footer {
 
 .dashboard-header {
     height: auto;
-}
-
-.dashboard-body {
-    /*background-color: ;*/
-}
-
-.dashboard-body-tag {
-    /*background-color: #E0F2F1;*/
-}
-
-#listpage {
-    /*display: none;*/
-}
-
-#addpage {
-
 }

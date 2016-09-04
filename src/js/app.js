@@ -3,6 +3,7 @@
  */
 
 $(document).ready(function() {
+
     try {
         $('#example').DataTable();
 
@@ -17,6 +18,11 @@ $(document).ready(function() {
             $("#addpage").css({"display":"none"});
             $("#listpage").css({"display":""});
         });
+        
+        $('#add_patient_btn').click(function () {
+
+        })
+
     }
     catch(err) {
 
